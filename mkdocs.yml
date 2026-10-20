@@ -1,0 +1,55 @@
+site_name: Blue Team Defense Handbook
+use_directory_urls: false
+theme:
+  name: material
+  language: ru
+  palette:
+    scheme: slate
+plugins:
+  - search
+  - offline
+nav:
+  - Главная: index.md
+  - Инструменты:
+      - Справочник: guides/index.md
+      - Easy:
+          - lynis: guides/easy/lynis.md
+          - fail2ban: guides/easy/fail2ban.md
+          - lnav: guides/easy/lnav.md
+          - goaccess: guides/easy/goaccess.md
+          - inotify-tools: guides/easy/inotify-tools.md
+          - aide: guides/easy/aide.md
+          - uptime-kuma: guides/easy/uptime-kuma.md
+          - nethogs: guides/easy/nethogs.md
+          - restic: guides/easy/restic.md
+          - rsync: guides/easy/rsync.md
+          - auditd: guides/easy/auditd.md
+          - curl: guides/easy/curl.md
+          - btop: guides/easy/btop.md
+      - Medium:
+          - crowdsec: guides/medium/crowdsec.md
+          - bunkerweb: guides/medium/bunkerweb.md
+          - coraza: guides/medium/coraza.md
+          - owasp-crs: guides/medium/owasp-crs.md
+          - suricata: guides/medium/suricata.md
+          - trivy: guides/medium/trivy.md
+          - wireshark: guides/medium/wireshark.md
+          - clamav: guides/medium/clamav.md
+          - yara-x: guides/medium/yara-x.md
+          - pspy: guides/medium/pspy.md
+          - linpeas: guides/medium/linpeas.md
+      - Advanced:
+          - wazuh: guides/advanced/wazuh.md
+          - falco: guides/advanced/falco.md
+          - velociraptor: guides/advanced/velociraptor.md
+          - opencanary: guides/advanced/opencanary.md
+          - cowrie: guides/advanced/cowrie.md
+          - hayabusa: guides/advanced/hayabusa.md
+          - bloodhound-ce: guides/advanced/bloodhound-ce.md
+          - zeek: guides/advanced/zeek.md
+          - ansible: guides/advanced/ansible.md
+          - prometheus: guides/advanced/prometheus.md
+          - grafana: guides/advanced/grafana.md
+  - Быстрые сценарии:
+      - Первые 15 минут: playbooks/first-15-minutes.md
+      - Сервис недоступен: playbooks/web-unavailable.md
