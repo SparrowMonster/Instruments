@@ -1,0 +1,63 @@
+[submodule "tools/easy/lynis"]
+	path = tools/easy/lynis
+	url = https://github.com/CISOfy/lynis.git
+
+[submodule "tools/easy/fail2ban"]
+	path = tools/easy/fail2ban
+	url = https://github.com/fail2ban/fail2ban.git
+
+[submodule "tools/easy/lnav"]
+	path = tools/easy/lnav
+	url = https://github.com/tstack/lnav.git
+
+[submodule "tools/easy/goaccess"]
+	path = tools/easy/goaccess
+	url = https://github.com/allinurl/goaccess.git
+
+[submodule "tools/easy/inotify-tools"]
+	path = tools/easy/inotify-tools
+	url = https://github.com/inotify-tools/inotify-tools.git
+
+[submodule "tools/easy/aide"]
+	path = tools/easy/aide
+	url = https://github.com/AIDE/aide.git
+
+[submodule "tools/easy/uptime-kuma"]
+	path = tools/easy/uptime-kuma
+	url = https://github.com/louislam/uptime-kuma.git
+
+[submodule "tools/medium/crowdsec"]
+	path = tools/medium/crowdsec
+	url = https://github.com/crowdsecurity/crowdsec.git
+
+[submodule "tools/medium/bunkerweb"]
+	path = tools/medium/bunkerweb
+	url = https://github.com/bunkerity/bunkerweb.git
+
+[submodule "tools/medium/coraza"]
+	path = tools/medium/coraza
+	url = https://github.com/corazawaf/coraza.git
+
+[submodule "tools/medium/owasp-crs"]
+	path = tools/medium/owasp-crs
+	url = https://github.com/coreruleset/coreruleset.git
+
+[submodule "tools/medium/suricata"]
+	path = tools/medium/suricata
+	url = https://github.com/OISF/suricata.git
+
+[submodule "tools/medium/trivy"]
+	path = tools/medium/trivy
+	url = https://github.com/aquasecurity/trivy.git
+
+[submodule "tools/advanced/wazuh"]
+	path = tools/advanced/wazuh
+	url = https://github.com/wazuh/wazuh.git
+
+[submodule "tools/advanced/falco"]
+	path = tools/advanced/falco
+	url = https://github.com/falcosecurity/falco.git
+
+[submodule "tools/advanced/velociraptor"]
+	path = tools/advanced/velociraptor
+	url = https://github.com/Velocidex/velociraptor.git
