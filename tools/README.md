@@ -1,5 +1,5 @@
 # Tool source submodules
 
-These are pinned upstream Git repositories, not locally built executables. Use `git clone --recurse-submodules` or `git submodule update --init --recursive` to fetch source code. Review license and requirements in each upstream project before running it. Avoid untested installs on competition services.
+35 pinned Git submodules under easy, medium, advanced. Clone with `git clone --recurse-submodules https://github.com/SparrowMonster/Instruments.git`.
 
-The broader catalog remains at `catalog/tools.csv`.
+See catalog/tools.csv and docs/guides/ for reference materials. No submodule is automatically installed or executed.
