@@ -61,3 +61,79 @@
 [submodule "tools/advanced/velociraptor"]
 	path = tools/advanced/velociraptor
 	url = https://github.com/Velocidex/velociraptor.git
+
+[submodule "tools/easy/nethogs"]
+	path = tools/easy/nethogs
+	url = https://github.com/raboof/nethogs.git
+
+[submodule "tools/easy/restic"]
+	path = tools/easy/restic
+	url = https://github.com/restic/restic.git
+
+[submodule "tools/easy/rsync"]
+	path = tools/easy/rsync
+	url = https://github.com/RsyncProject/rsync.git
+
+[submodule "tools/easy/auditd"]
+	path = tools/easy/auditd
+	url = https://github.com/linux-audit/audit-userspace.git
+
+[submodule "tools/easy/curl"]
+	path = tools/easy/curl
+	url = https://github.com/curl/curl.git
+
+[submodule "tools/easy/btop"]
+	path = tools/easy/btop
+	url = https://github.com/aristocratos/btop.git
+
+[submodule "tools/medium/wireshark"]
+	path = tools/medium/wireshark
+	url = https://github.com/wireshark/wireshark.git
+
+[submodule "tools/medium/clamav"]
+	path = tools/medium/clamav
+	url = https://github.com/Cisco-Talos/clamav.git
+
+[submodule "tools/medium/yara-x"]
+	path = tools/medium/yara-x
+	url = https://github.com/VirusTotal/yara-x.git
+
+[submodule "tools/medium/pspy"]
+	path = tools/medium/pspy
+	url = https://github.com/DominicBreuker/pspy.git
+
+[submodule "tools/medium/linpeas"]
+	path = tools/medium/linpeas
+	url = https://github.com/peass-ng/PEASS-ng.git
+
+[submodule "tools/advanced/opencanary"]
+	path = tools/advanced/opencanary
+	url = https://github.com/thinkst/opencanary.git
+
+[submodule "tools/advanced/cowrie"]
+	path = tools/advanced/cowrie
+	url = https://github.com/cowrie/cowrie.git
+
+[submodule "tools/advanced/hayabusa"]
+	path = tools/advanced/hayabusa
+	url = https://github.com/Yamato-Security/hayabusa.git
+
+[submodule "tools/advanced/bloodhound-ce"]
+	path = tools/advanced/bloodhound-ce
+	url = https://github.com/SpecterOps/BloodHound.git
+
+[submodule "tools/advanced/zeek"]
+	path = tools/advanced/zeek
+	url = https://github.com/zeek/zeek.git
+
+[submodule "tools/advanced/ansible"]
+	path = tools/advanced/ansible
+	url = https://github.com/ansible/ansible.git
+
+[submodule "tools/advanced/prometheus"]
+	path = tools/advanced/prometheus
+	url = https://github.com/prometheus/prometheus.git
+
+[submodule "tools/advanced/grafana"]
+	path = tools/advanced/grafana
+	url = https://github.com/grafana/grafana.git
